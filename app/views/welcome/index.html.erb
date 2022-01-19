@@ -5,13 +5,12 @@
 <%if !current_user.nil? %>
 	<hr />
 	<p>If you would like to check your hours, see your <%=link_to "Profile", user_path(current_user)%></p>
+<%end%>
 
 <hr />
 <h2>Calendar</h2> 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&title&src=NHEzbTE0a2Y4ZzAyY2N1Mjhmb3JnM3M2ZnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%234285F4" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <hr />
-
-<%end%>
 
 <%if !current_user.nil?%>
 	<%if Constants::FLEX_HOURS>0%>
