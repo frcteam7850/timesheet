@@ -1,18 +1,18 @@
 module Constants
-  TIMEZONE = 'Eastern Time (US & Canada)'
+  TIMEZONE = 'Central Time (US & Canada)'
   DAY_END = 1
-  BUILD_MEETINGS = 2
+  BUILD_MEETINGS = 1
   PRE_MEETINGS = 1
-  PRE_HOURS = 25
-  DEFAULT_LOGIN = "signup@team900.org"
-  TEAM_NAME = 'Zebracorns'
-  TEAM_NUMBER = '900'
-  SCHOOL_NAME_REPLACEMENT = 'School'
-  GENDERS = ['Male', 'Female', 'Other']
-  FRESHMAN_HOURS = 6
-  SOPHOMORE_HOURS = 8
-  JUNIOR_HOURS = 10
-  SENIOR_HOURS = 10
-  LEADERSHIP_HOURS = 15
+  PRE_HOURS = 1
+  DEFAULT_LOGIN = "roboticsteam.crhs1@gmail.com"
+  TEAM_NAME = 'C.A.R.D.S'
+  TEAM_NUMBER = '7850'
+  SCHOOL_NAME_REPLACEMENT = 'Coon Rapids High School'
+  GENDERS = ['Male', 'Female', 'Non-Binary']
+  FRESHMAN_HOURS = 58
+  SOPHOMORE_HOURS = 58
+  JUNIOR_HOURS = 58
+  SENIOR_HOURS = 58
+  LEADERSHIP_HOURS = 58
   FLEX_HOURS = 15
 end
