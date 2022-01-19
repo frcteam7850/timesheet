@@ -2,14 +2,14 @@
 <p>Please ask an Admin to log in if you would like to check in.</p>
 <p>Sign in your own account to update your account info.</p>
 
-<hr />
-<h2>Calendar</h2> 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&src=cm9ib3RpY3N0ZWFtLmNyaHNAZ21haWwuY29t&src=dTE5aDdjdmRmZDVuZnVxc2poMTUzNjk0ZWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=NHEzbTE0a2Y4ZzAyY2N1Mjhmb3JnM3M2ZnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20xODk5NTlmN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%23E67C73&color=%234285F4&color=%2333B679&color=%23174ea6" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
 <%if !current_user.nil? %>
 	<hr />
 	<p>If you would like to check your hours, see your <%=link_to "Profile", user_path(current_user)%></p>
 <%end%>
+
+<hr />
+<h2>Calendar</h2> 
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&src=cm9ib3RpY3N0ZWFtLmNyaHNAZ21haWwuY29t&src=dTE5aDdjdmRmZDVuZnVxc2poMTUzNjk0ZWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=NHEzbTE0a2Y4ZzAyY2N1Mjhmb3JnM3M2ZnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20xODk5NTlmN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%23E67C73&color=%234285F4&color=%2333B679&color=%23174ea6" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 <hr />
 
