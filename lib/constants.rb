@@ -5,9 +5,9 @@ module Constants
   PRE_MEETINGS = 1
   PRE_HOURS = 1
   DEFAULT_LOGIN = "roboticsteam.crhs1@gmail.com"
-  TEAM_NAME = 'C.A.R.D.S'
+  TEAM_NAME = 'C.A.R.D.S.'
   TEAM_NUMBER = '7850'
-  SCHOOL_NAME_REPLACEMENT = 'Coon Rapids High School'
+  SCHOOL_NAME_REPLACEMENT = 'Sub-Team'
   GENDERS = ['Male', 'Female', 'Non-Binary']
   FRESHMAN_HOURS = 58
   SOPHOMORE_HOURS = 58
